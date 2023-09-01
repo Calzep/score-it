@@ -1,0 +1,198 @@
+/* score_it_stylesheet
+Version 12, 27/09/2021
+by Caleb Eason */
+
+/* --- Global Formatting ---*/
+
+* {
+  
+}
+
+/* --- Defualt Elements --- */
+
+/* The padding provides the empty space either side of each page
+the media query below removes this padding below a 1200px screen size */
+body {
+  background-color: #101010;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+@media only screen and (max-width: 1200px) {
+  body {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+
+
+/* --- IDs --- */
+
+#header {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  margin: 0px;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+#loginButton {
+  width: 150px;
+  height: 50px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 25px;
+  padding: auto;
+}
+#navBar {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  border-top: 1px solid #2d2d2d;
+  border-bottom: 1px solid #2d2d2d;
+  margin: 0px;
+}
+#leftLink {
+  width: 50%;
+  height: 50px;
+  float: left;
+  background-color: #1d1d1d;
+}
+#rightLink {
+  width: 50%;
+  height: 50px;
+  float: right;
+  background-color: #1d1d1d;
+}
+#leftLink:hover {
+  background-color: #2d2d2d;
+}
+#rightLink:hover {
+  background-color: #2d2d2d;
+}
+#footer {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  margin: 0px;
+  border-top: 2px solid #1d1d1d;
+}
+
+/* --- Classes --- */
+.button_green {
+  background: linear-gradient(to bottom, #00ff7b 0%, #00ff9d 100%);
+  border: 2px solid #1d1d1d;
+}
+.button_green:hover {
+ background: linear-gradient(to bottom, #00dd59 0%, #00dd7a 100%);
+}
+.button_black {
+  background-color: #1d1d1d;
+  border: 2px solid #FFF;
+}
+.button_black:hover {
+ background-color: #3d3d3d;
+}
+.entrybox {
+  width: 96.75%;
+  height: 30px;
+  background-color: #ccc;
+}
+
+/* --- Text Classes --- */
+/* headings */
+.h1 {
+  color: #FFF;
+  font-family: arial;
+  font-size: 32px;
+  text-align: left;
+  margin: 0px;
+  padding-left: 125px;
+  padding-top: 32px;
+}
+.h2 {
+  color: #FFF;
+  font-family: arial;
+  font-size: 26px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 50px;
+}
+.h3 {
+  color: #FFF;
+  font-family: arial;
+  font-size: 16px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 50px;
+}
+
+/* normal text */
+.p1 { 
+  color: #000;
+  font-family: arial;
+  font-size: 16px;
+  text-align: center;
+}
+.p2 {
+  color: #FFF;
+  font-family: arial;
+  font-size: 16px;
+  text-align: justify;
+  padding: 25px 100px 0px 100px;
+  margin: 0px;
+}
+.p3 {
+  color: #FFF;
+  font-family: arial;
+  font-size: 16px;
+  text-align: center;
+}
+.pf { /* footer text */
+  color: #FFF;
+  font-family: arial;
+  font-size: 16px;
+  text-align: center;
+  padding: 25px 100px 0px 100px;
+}
+
+/* labels */
+.l1 {
+  color: #fff;
+  font-family: arial;
+  font-size: 16px;
+  text-align: left;
+  padding: 25px 0px 5px 10px;
+  margin: 0px;
+}
+.l2 {
+  color: #000;
+  font-family: arial;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 10px;
+  margin: 0px;
+}
+
+/* --- Links --- */
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+a:active {
+  text-decoration: none;
+  color: #000;
+}
